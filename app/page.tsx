@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <main className="snap-y snap-mandatory h-screen overflow-y-auto">
+    <main className="snap-y snap-mandatory h-screen overflow-y-auto bg-black">
       {/* Hero Section */}
       <section className="h-screen relative bg-black">
         <BatmobileCanvas />
