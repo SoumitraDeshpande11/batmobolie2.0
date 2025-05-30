@@ -1,3 +1,5 @@
+'use client';
+
 import BatmobileCanvas from './components/BatmobileCanvas';
 import { motion } from 'framer-motion';
 
@@ -5,7 +7,7 @@ export default function Home() {
   return (
     <main className="snap-y snap-mandatory h-screen overflow-y-auto">
       {/* Hero Section */}
-      <section className="h-screen relative">
+      <section className="h-screen relative bg-black">
         <BatmobileCanvas />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 bg-black/30">
           <motion.h1 
